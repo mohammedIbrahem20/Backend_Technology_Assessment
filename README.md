@@ -6,5 +6,5 @@
 4- we can generate the coverage reports by install JaCoCo plugin in STS and right click on CalculateDiscountServiceTest classe and select Coverage As
 
 to build project from command line: we can run command 
-mvn clean
+mvn clean then
 mvn install
