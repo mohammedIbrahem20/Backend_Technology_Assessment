@@ -13,10 +13,10 @@ mvn install
 
 to generate unit test report we can add 
 <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-report-plugin</artifactId>
-				<version>2.18</version>
-			</plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-surefire-report-plugin</artifactId>
+	<version>2.18</version>
+</plugin>
 
    and run this comand:
    mvn surefire-report:report
